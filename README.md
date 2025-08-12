@@ -21,9 +21,11 @@ AES_UART_Config.ioc  # STM32CubeMX configuration file
   - USB-UART connection  
 - Software:  
   - STM32CubeIDE  
-  - Python 3 with pyserial and tkinter  
-  - STM32 HAL libraries  
+  - Python 3 with pyserial,tkinter, and pycryptodome  
+  - STM32 HAL libraries (included with STM32CubeIDE installation) 
 ## How to run?
 1. Flash the STM32 firmware generated in Core/ and Drivers/ using STM32CubeIDE.
 2. Run the Python GUI
 3. Select the COM port and send commands.
+## Acknowledgements
+- **Tiny-AES** — Used `aes.c` and `aes.h` files from the [Tiny-AES-c](https://github.com/kokke/tiny-AES-c) repository for AES implementation on STM32.
