@@ -9,10 +9,10 @@ This project demonstrates a secure communication interface between a Python GUI 
   - LED_BLINK – Blink onboard LED  
   - Extendable for other ECU-style commands  
 ## Project Structure
-Core/           # STM32CubeIDE source files (Inc, Src, Startup)  
-Drivers/        # HAL and CMSIS drivers  
-Python/         # Python GUI script  
-AES_UART_Config.ioc  # STM32CubeMX configuration file  
+```Core/           # STM32CubeIDE source files (Inc, Src, Startup)```  
+```Drivers/        # HAL and CMSIS drivers```  
+```Python/         # Python GUI script```  
+```AES_UART_Config.ioc  # STM32CubeMX configuration file```  
 ## Hardware and Software Requirements
 - Hardware:  
   - STM32F446 Nucleo or similar board  
