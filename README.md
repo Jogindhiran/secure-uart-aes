@@ -28,4 +28,4 @@ AES_UART_Config.ioc  # STM32CubeMX configuration file
 2. Run the Python GUI
 3. Select the COM port and send commands.
 ## Acknowledgements
-- **Tiny-AES** — Used `aes.c` and `aes.h` files from the [Tiny-AES-c](https://github.com/kokke/tiny-AES-c) repository for AES implementation on STM32.
+- **Tiny-AES** — Used `aes.c` and `aes.h` files from the [tiny-AES-c](https://github.com/kokke/tiny-AES-c) repository for AES implementation on STM32.
