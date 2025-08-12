@@ -1,9 +1,8 @@
 # Secure UART Command Interface with AES Encryption
 ## Overview
-This project demonstrates a secure communication interface between a Python GUI and an STM32 microcontroller over UART, using the AES-128 encryption algorithm.
-It is designed to showcase both embedded systems programming and Python-based GUI development for secure data exchange.
+This project demonstrates a secure communication interface between a Python GUI and an STM32 microcontroller over UART, using the AES-128 encryption algorithm. It is designed to showcase both embedded systems programming and Python-based GUI development for secure data exchange.
 ## Features
-• AES-128 Encryption & Decryption for UART commands
+• AES-128 Encryption & Decryption for UART commands_
 • Python Tkinter GUI for sending encrypted commands
 • Command parsing logic on STM32 to execute actions
 • Example commands:
